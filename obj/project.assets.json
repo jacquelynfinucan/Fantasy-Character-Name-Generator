@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jacqu\\OneDrive\\Documents\\Jacquelyn\\Side Projects\\FantasyCharacterNameGenerator\\FantasyCharacterNameGenerator.csproj",
+      "projectUniqueName": "C:\\Users\\jacqu\\OneDrive\\Documents\\Jacquelyn\\Side Projects\\Fantasy-Character-Name-Generator\\FantasyCharacterNameGenerator.csproj",
       "projectName": "FantasyCharacterNameGenerator",
-      "projectPath": "C:\\Users\\jacqu\\OneDrive\\Documents\\Jacquelyn\\Side Projects\\FantasyCharacterNameGenerator\\FantasyCharacterNameGenerator.csproj",
+      "projectPath": "C:\\Users\\jacqu\\OneDrive\\Documents\\Jacquelyn\\Side Projects\\Fantasy-Character-Name-Generator\\FantasyCharacterNameGenerator.csproj",
       "packagesPath": "C:\\Users\\jacqu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jacqu\\OneDrive\\Documents\\Jacquelyn\\Side Projects\\FantasyCharacterNameGenerator\\obj\\",
+      "outputPath": "C:\\Users\\jacqu\\OneDrive\\Documents\\Jacquelyn\\Side Projects\\Fantasy-Character-Name-Generator\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\jacqu\\AppData\\Roaming\\NuGet\\NuGet.Config",

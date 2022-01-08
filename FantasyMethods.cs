@@ -43,30 +43,58 @@ namespace FantasyCharacterNameGenerator
         }
         public string GetFirstName(string genderLetter, int colorNumber)
         {
+            string returnFirstName = "";
             if(colorNumber == -1)
             {
                 Console.WriteLine("Error reading color selection.");
             }
             else if(genderLetter == "F")
             {
-
+                returnFirstName = femaleFirstNames[colorNumber - 1];
             }
-            else
+            else if(genderLetter == "M")
             {
-
+                returnFirstName = maleFirstNames[colorNumber - 1];
             }
-            return "";
+            else //if genderLetter == "N"
+            {
+                returnFirstName = neutralFirstNames[colorNumber - 1];
+            }
+            return returnFirstName;
         }
 
         public string GetLastName(string genderLetter, int creatureNumber)
         {
             //select corresponding name from allLastNames as per user input-accessed via array index[0]
+            string returnLastName = "";
             if (creatureNumber == -1)
             {
                 Console.WriteLine("Error reading creature selection.");
             }
-            //else if()
-            return "";
+            else
+            {
+                returnLastName = allLastNames[creatureNumber - 1];
+            }
+            return returnLastName;
+        }
+
+        public string GetGenderWord(string genderLetter)
+        {
+            //convert gender letter to full word for retur message printed out below
+            string characterGenderFullWord = "";
+            if (genderLetter == "F")
+            {
+                characterGenderFullWord = "female";
+            }
+            else if (genderLetter == "M")
+            {
+                characterGenderFullWord = "male";
+            }
+            else if (genderLetter == "N")
+            {
+                characterGenderFullWord = "neutral";
+            }
+            return characterGenderFullWord;
         }
 
     } //end of class
